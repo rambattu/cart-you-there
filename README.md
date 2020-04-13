@@ -1,5 +1,7 @@
 A Python program using Selenium webdriver API to automate searching for instacart 
-delivery or pick-up availability.
+delivery or pick-up availability.  
+If you are tired of constantly searching for open slots in [Instacart](https://www.instacart.com/), 
+use this program to do that for you.
 
 ---
 
