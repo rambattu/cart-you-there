@@ -14,7 +14,7 @@ with open(SETTINGS_FILE,"r") as yamlf:
     cfg = yaml.load(yamlf, Loader=yaml.SafeLoader)
 
 OPEN_BROWSER = cfg['OPEN_BROWSER']
-CHROMEDRIVER = "chromedriver"
+CHROMEDRIVER = "./chromedriver"
 
 MAIN_SITE = "https://instacart.com"
 SHOP_SITE = "https://www.instacart.com/store/{}/info?tab=delivery"
@@ -157,8 +157,6 @@ class BrowseForMe:
 
             if not self.check_availability():
                 # If not available keep reload and keep checking
-                self.send_email("Not there")
-                print("Not there")
                 continue
 
             message =  self.check_times()

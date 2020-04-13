@@ -13,7 +13,7 @@ delivery or pick-up availability.
 
 ### Clone repo
 ```
-git clone https://github.com/rambattu/cart-you-there.git
+$ git clone https://github.com/rambattu/cart-you-there.git
 ```
 
 ### Install Chrome webdriver
@@ -27,6 +27,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 ```
 $ virtualenv env
+$ source env/bin/activate
 $ pip install selenium
 $ pip install PyYAML
 ```
@@ -110,7 +111,7 @@ after that. You can start again after that.
 - I've tested only limited number of times during this exercise, I am not sure if
 there are any norms in support or against this approach of browsing.
 
-- Use at your own judgement and please be kind.
+- Use at your own discretion and please be kind.
 
 ---
 
